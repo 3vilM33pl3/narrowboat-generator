@@ -1,0 +1,103 @@
+{
+  "design": "NB57 Wren",
+  "design_sha256": "5129a6a00736e43b36dba58531886f112828a9a5638612fffc9daf7b5fa4877c",
+  "dpi": 254,
+  "scale": "1:50",
+  "sheets": [
+    "NB57-GA-001",
+    "NB57-EX-002"
+  ],
+  "calibration": {
+    "NB57-GA-001": {
+      "plan": {
+        "png": "NB57-GA-001.png",
+        "lines_png": "NB57-GA-001_plan_lines.png",
+        "mm_per_px": 5.0,
+        "b0_px": 790.0,
+        "axis_px": 1280.0,
+        "b_sign": 1,
+        "v_sign": 1,
+        "box_px": [
+          275,
+          1027,
+          3983,
+          1522
+        ]
+      },
+      "port": {
+        "png": "NB57-GA-001.png",
+        "lines_png": "NB57-GA-001_port_lines.png",
+        "mm_per_px": 5.0,
+        "b0_px": 790.0,
+        "axis_px": 930.0,
+        "b_sign": 1,
+        "v_sign": 1,
+        "box_px": [
+          223,
+          362,
+          3959,
+          1016
+        ]
+      },
+      "starboard": {
+        "png": "NB57-GA-001.png",
+        "lines_png": "NB57-GA-001_starboard_lines.png",
+        "mm_per_px": 5.0,
+        "b0_px": 790.0,
+        "axis_px": 1600.0,
+        "b_sign": 1,
+        "v_sign": -1,
+        "box_px": [
+          360,
+          1600,
+          4090,
+          2040
+        ]
+      }
+    },
+    "NB57-EX-002": {
+      "profile": {
+        "png": "NB57-EX-002.png",
+        "lines_png": "NB57-EX-002_profile_lines.png",
+        "mm_per_px": 5.0,
+        "b0_px": 790.0,
+        "axis_px": 740.0,
+        "b_sign": 1,
+        "v_sign": 1,
+        "box_px": [
+          360,
+          187,
+          3959,
+          755
+        ]
+      },
+      "roof": {
+        "png": "NB57-EX-002.png",
+        "lines_png": "NB57-EX-002_roof_lines.png",
+        "mm_per_px": 5.0,
+        "b0_px": 790.0,
+        "axis_px": 1040.0,
+        "b_sign": 1,
+        "v_sign": 1,
+        "box_px": [
+          212,
+          787,
+          3950,
+          1282
+        ]
+      }
+    }
+  },
+  "files": {
+    "NB57-EX-002.png": "1cca4fc6ce33d55bd37dd66fd8aa4cca98ceab2a63877b48eb5f8f413e9ef4cc",
+    "NB57-EX-002.svg": "716f513dd3152f7084c3fe668df4cd7894aa11fdf09a43c3c4863c8657d06b8f",
+    "NB57-EX-002_profile_lines.png": "af33a460fc2bf9269be69f265645a372b5970077cf81571ab21931b3b18fd1e1",
+    "NB57-EX-002_roof_lines.png": "4d35b8ef32ab07d680f14a4d5446fcec28f001bd6731703b67907e624b59627d",
+    "NB57-GA-001.png": "6f6c8891ed1e9771ed9801e31c3e29fc54f729e482a2a8704772444c23200bd9",
+    "NB57-GA-001.svg": "5f3b3307b81b249b6499e91b7184216f9f248b223b836f12b5960262340ee380",
+    "NB57-GA-001_plan_lines.png": "beee7ac1b2bde84db8e7a14c28b1f7e4c32e9fe83ce8a9e047744f08bfe18d21",
+    "NB57-GA-001_port_lines.png": "856b7558fb7dc2592c2403d3fdb1dda44db5788e573182cb3f206ba8e24eea29",
+    "NB57-GA-001_starboard_lines.png": "e54bb5899c7220c9e58aacad45552f3e221e0b1e82d6a689e8a1fe683a425eb6",
+    "NB57_drawings.pdf": "d23dbcf481c11b97d9184933087ca5852160431e858a54864f801376165d9c4e"
+  }
+}

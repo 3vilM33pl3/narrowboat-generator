@@ -24,10 +24,41 @@ CC0 "forest" world that ships with Blender. The profile overlay is the outboard 
 at drawing scale with the drawing's linework laid over it in red, which is how the build
 checks itself.
 
-The drawing set comes from the same numbers (sheet 2, the outboard profile and particulars,
-is [here](docs/previews/drawing_ex.jpg)):
+## The blueprint
+
+The boat is documented by a two-sheet A3 drawing set in [`blueprint/`](blueprint/), drawn
+from the same numbers as the model:
+
+- **NB57-GA-001**, general arrangement at 1:50: sections A–A and B–B and the furniture plan.
+- **NB57-EX-002**, the outboard profile, roof and deck plan, midship section C–C at 1:20 and
+  the particulars, tankage, weight, ventilation and openings tables.
+
+Each sheet is there as SVG and PNG (254 dpi), both together as
+[`NB57_drawings.pdf`](blueprint/NB57_drawings.pdf), plus the lines-only PNGs the build lays
+over its renders and `drawings_manifest.json` with their calibration.
+`python3 src/narrowboat_blueprint.py` regenerates them into `build/Drawings`.
 
 ![NB57-GA-001 general arrangement](docs/previews/drawing_ga.jpg)
+
+## How it was made
+
+The design, the blueprint and this generator were made with Claude (Anthropic's AI) in
+Claude Code. It started from this prompt:
+
+> Can you design your narrowboat and create a blueprint similar to this one? It needs to
+> be accurate and technical correct.
+
+Claude asked two questions before starting, and these were the answers:
+
+- **Blueprint + rebuild model**: draw the blueprint first, then rebuild the Blender model
+  from the new design.
+- **Semi-trad, trad layout**: a semi-traditional stern with a traditional layout (going
+  forward from the stern: bedroom, walk-through bathroom, galley, saloon).
+
+Claude then worked out the design against real constraints (Canal & River Trust lock and
+tunnel dimensions, Boat Safety Scheme rules, BS 8511 stove clearances, builders' published
+specifications) and wrote it as `narrowboat_design.py`. The blueprint and the model are
+both generated from that file.
 
 ## What you get
 
