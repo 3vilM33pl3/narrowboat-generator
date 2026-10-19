@@ -1,0 +1,7 @@
+build/
+*.staging/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.blend1
+.env
